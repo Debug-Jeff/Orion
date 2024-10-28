@@ -1,0 +1,35 @@
+footer{
+    margin: 1% 2% 0 16%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2% 10px;
+
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+    }
+    a{
+        font-size: 14px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: #bfbfbf;
+        margin-bottom: 5px;
+        transition: all .3s ease;
+    }
+    a:hover{
+        color: #fff;
+
+    }
+    i{
+        margin-right: 8px;
+        font-size: 20px;
+    }
+}
+.copyright {
+    span{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+}
